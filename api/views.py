@@ -169,6 +169,7 @@ class Predict(APIView):
         response = requests.request("POST", url, headers=headers, data = payload)
         
         response = json.loads(response.content)
+        print(response)
 
         try:
             success_score = response["Results"]["output1"]["value"]["Values"][0][0]
