@@ -1,0 +1,1 @@
+web: gunicorn intexapi.wsgi --log-file -
