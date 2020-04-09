@@ -25,7 +25,7 @@ SECRET_KEY = ')40g8anyi64)1flyk*tg5%o@zuf+@()&zkw2m&4v=m-5z8z3$u'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['checkcharitable.herokuapp.com']
 
 
 # Application definition
